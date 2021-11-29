@@ -6,7 +6,9 @@ Consumir Api de Rick and Morty, Proyecto curso VUE CLI 3
 
 ## Project deployed
 
+```
 https://samuele-rickandmortyapi-app.netlify.app/
+```
 
 ## Project setup
 ```
