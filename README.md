@@ -4,6 +4,10 @@ Consumir Api de Rick and Morty, Proyecto curso VUE CLI 3
 =======
 # rick_morty_app
 
+## Project deployed
+
+https://samuele-rickandmortyapi-app.netlify.app/
+
 ## Project setup
 ```
 yarn install
