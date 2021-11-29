@@ -37,7 +37,7 @@ export default {
     text-align: center;
     cursor: pointer;
     &:hover {
-      color: var(--text-orange);
+      color: var(--text-white);
     }
   }
 }

@@ -36,17 +36,18 @@ export default {
   padding: 0;
 }
 body {
-  background-color: var(--background-body);
-  color: var(--text-white);
+  color: var(--text-orange);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 h1 {
   margin-bottom: 3rem;
   text-align: center;
 }
 .container {
-  width: 980px;
-  max-width: 90%;
+  width: 100%;
+  max-width: 70%;
+  height: 248px;
   margin: 5rem auto;
 }
 img {

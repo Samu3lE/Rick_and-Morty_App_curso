@@ -1,5 +1,5 @@
 <template>
-  <div class="character">
+  <div class="character box-shadow-1">
     <img :src="character.image" :alt="character.name" />
     <div class="character__info">
       <h3>
@@ -22,7 +22,9 @@
       <div class="origin">
         <span>Origin: {{ character.origin.name }}</span>
       </div>
-      <div class="location">Location: {{ character.location.name }}</div>
+      <div>
+        <span> Location: {{ character.location.name }} </span>
+      </div>
     </div>
   </div>
 </template>
@@ -37,15 +39,19 @@ export default {
 .character {
   background-color: var(--background-card);
   border-radius: 20px;
-  box-shadow: 0 0 10px 1px var(--background-body);
   overflow: hidden;
   cursor: pointer;
   transition: transform 200ms ease-in-out;
   height: 100%;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
   &:hover {
     transform: scale(1.05);
     h3 {
-      color: var(--text-orange);
+      color: var(--text-white);
     }
   }
   span {
@@ -83,5 +89,9 @@ export default {
       margin-bottom: 0.5rem;
     }
   }
+}
+
+.box-shadow-1 {
+  box-shadow: 0.25rem 0.25rem 1rem var(--background-body);
 }
 </style>
