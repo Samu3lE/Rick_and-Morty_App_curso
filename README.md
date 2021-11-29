@@ -1,5 +1,9 @@
 # rick_morty_app
 
+## Project deployed
+
+https://samuele-rickandmortyapi-app.netlify.app/
+
 ## Project setup
 ```
 yarn install
