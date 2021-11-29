@@ -38,7 +38,7 @@ export default {
     height: 53px;
     width: 400px;
     border: none;
-    border-radius: 10px;
+    border-bottom: thin solid var(--text-orange);
     padding: 0 0.5rem;
   }
 }
