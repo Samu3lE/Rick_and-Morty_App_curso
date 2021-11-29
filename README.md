@@ -2,9 +2,8 @@
 
 ## Project deployed
 
-```
 https://samuele-rickandmortyapi-app.netlify.app/
-```
+
 
 ## Project setup
 ```
